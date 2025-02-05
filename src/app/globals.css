@@ -1,12 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #09010e;
+  --foreground: #09010e;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #09010e;
+    --foreground: #09010e;
   }
 }
 
@@ -18,7 +20,8 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  /* background: var(--background); */
+  background: #09010e;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,4 +42,168 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.font-24 {
+  font-size: 24px !important;
+}
+
+.im-fell-great-primer-sc-regular {
+  font-family: "IM Fell Great Primer SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav_text_f {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: -webkit-linear-gradient(99.05deg, #c824ec 0.07%, #df308d 106.32%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: linear-gradient(99.05deg, #c824ec 0.07%, #df308d 106.32%); */
+}
+
+.text_f {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.14px;
+  text-align: left;
+  color: #fff;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+}
+
+.sign_up_btn {
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 12px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background: linear-gradient(99.05deg, #c824ec 0.07%, #df308d 106.32%);
+}
+
+.backGround_cls {
+  background: linear-gradient(
+    180deg,
+    #010208 16.39%,
+    #010206 20.51%,
+    #040008 24.79%,
+    #010101 30.46%,
+    #010101 34.11%,
+    #010101 36.21%,
+    #010101 100%
+  );
+  color: #fff;
+}
+
+/* .section_area {
+  height: 100vh;
+} */
+
+.heading_text {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 42px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.sub_text {
+  width: 30vw;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.main_img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.girl_g {
+  width: 15rem;
+  height: 22rem;
+  margin-top: -6rem;
+}
+
+.boy_g {
+  margin-left: 2rem;
+  margin-top: 12rem;
+  width: 15rem;
+  height: 22rem;
+}
+
+.second_section_right_container {
+  margin-top: 15rem;
+}
+
+.backgroundImage {
+  /* background-image: url("/src/app/images/background-section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1; */
+  border-radius: 0 8rem 0 0;
+  border: 0.69px solid;
+  background-color: rgba(83, 70, 134, 1) !important;
+  border-image-source: linear-gradient(
+    179.04deg,
+    #ffffff -12.91%,
+    #aa14f0 99.18%
+  );
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.you_img {
+  width: 18rem;
+  height: 12rem;
+}
+.d_image {
+  width: 16rem;
+  height: 16rem;
+}
+.card_wrapper {
+  width: 55% !important;
+  margin: 2rem;
+  margin-top: 4rem !important;
+}
+
+.card_wrapper_center {
+  width: 55% !important;
+  margin: 2rem;
+  margin-top: 4rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mi_3 {
+  margin-right: 3rem !important;
 }
