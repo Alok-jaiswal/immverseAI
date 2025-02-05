@@ -207,3 +207,67 @@ a {
 .mi_3 {
   margin-right: 3rem !important;
 }
+
+.review_card_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.review_card_box {
+  width: 22rem;
+  height: 13rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  gap: 0px;
+  opacity: 0px;
+
+  background: linear-gradient(
+    180deg,
+    #aa14f0 -42.59%,
+    rgba(0, 0, 0, 0) -42.59%,
+    #cb8de8 -42.58%,
+    rgba(203, 143, 232, 0.18) 4.35%,
+    rgba(151, 60, 68, 0.055) 99.99%,
+    rgba(199, 137, 228, 0) 100%
+  );
+  border: 0.76px solid;
+  border-image-source: linear-gradient(
+    77.91deg,
+    rgba(185, 54, 245, 0.1375) 1.95%,
+    rgba(185, 54, 245, 0.11) 1.95%,
+    rgba(170, 20, 240, 0.0825) 108.82%
+  );
+  backdrop-filter: blur(11.434896469116211px);
+}
+
+.sub_text_card {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(247, 182, 3, 1);
+}
+.review_text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.profile_img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.shape_round {
+  background: radial-gradient(
+    37.26% 37.26% at 93.03% 48.34%,
+    rgba(170, 20, 240, 0.31) 0%,
+    rgba(170, 20, 240, 0) 100%
+  );
+  width: 750px;
+  height: 750px;
+  left: -40%;
+  border-radius: 50%;
+  position: absolute;
+}
